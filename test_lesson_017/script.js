@@ -56,15 +56,3 @@ wrapper.removeChild(heart[0]);
 //заменить элемент на место другого
 document.body.replaceChild(heart[1], btn[2]);
 
-
-
-
-
-
-/// 9 Mart 2020 year
-let spanMessage = document.createElement('span'),
-    spanText = 'Это span!';
-
-spanMessage.textContent = spanText;
-console.log(spanMessage);
-console.log(spanText);
