@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		button{
+			background-color: darkgreen;
+			border: none;
+			border-radius: 10px;
+			width: 130px;
+			height: 50px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			color: white;
+			cursor: pointer;
+		}
+		button:hover{
+			animation-name:size;
+			animation-duration: 350ms;
+			animation-timing-function: ease-out;
+		}
+		@keyframes size {
+				100% {
+					transform: scale(0.95,0.95);
+				}
+			}
+		a {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div style='display: inline-block;' class="wrapper">
+		<button id="btn">Нажми меня</button>
+	</div>
+	<button>Нажми меня</button>
+	<button>Нажми меня</button>
+	
+	<a href="https://learn.javascript.ru/">Современный учебник JavaScript</a>
+	<script src="script.js"></script>
+</body>
+
+</html>
